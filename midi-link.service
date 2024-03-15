@@ -1,0 +1,9 @@
+[Unit]
+Description=MIDI Link Application
+
+[Service]
+ExecStart=/usr/bin/midi-link
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
